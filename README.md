@@ -27,6 +27,8 @@ cry-baby-analyzer/
 
 ├── cry_baby_analyzer.ipynb       # Main notebook with preprocessing, modeling, and predictions
 
+├── cry_baby_presentation.pdf     # Presentation of findings
+
 ├── prediction/                   # Sample audio files for single prediction
 
 ├── data_raw/                     # Original recordings (reference only)
