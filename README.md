@@ -31,8 +31,8 @@ Solutions: Feed, Sleep, Adjust, Soothe
 
 MODEL ARCHITECTURE
 A multi-input neural network combining:
--Convolutional Neural Network (CNN) for Mel Spectrograms
--Fully Connected Neural Network (FCNN) for MFCC features
+  -Convolutional Neural Network (CNN) for Mel Spectrograms
+  -Fully Connected Neural Network (FCNN) for MFCC features
 Both branches merge into dense layers and predict the cry reason. The solution label was excluded due to lower model accuracy when dual targeting.
 
 TECHNOLOGIES
