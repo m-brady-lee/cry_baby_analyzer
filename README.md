@@ -1,14 +1,14 @@
-CRY BABY ANALYZER
+# CRY BABY ANALYZER
 
 A machine learning model for predicting the reason behind baby cries using audio analysis. This project was developed as a proof-of-concept for integrating AI into baby care products, offering support to new parents by identifying potential causes for their baby's distress.
 
 
-PROJECT OVERVIEW
+## PROJECT OVERVIEW
 
 Babies-R-Us (BRU) launched the Cry Baby Analyzer (CBA) pilot to regain market share by offering an innovative tool to help parents understand their baby's cries. The goal was to create a multi-input neural network capable of classifying baby cries based on audio data into categories like "Hungry," "Tired," "Pain," etc.
 
 
-KEY RESULTS
+## KEY RESULTS
 
 -Multi-input deep learning model with Mel Spectrogram and MFCC feature inputs
 
@@ -21,7 +21,7 @@ KEY RESULTS
 -Working proof-of-concept with future scalability
 
 
-FILE STRUCTURE
+## FILE STRUCTURE
 
 cry-baby-analyzer/
 
@@ -44,7 +44,7 @@ cry-baby-analyzer/
 └── README.md                     # Project overview and usage instructions
 
 
-DATASET
+## DATASET
 
 Source: 79 manually labeled audio samples from employees and their families
 
@@ -57,7 +57,7 @@ Reasons: Hungry, Tired, Unease, Discomfort, Pain
 Solutions: Feed, Sleep, Adjust, Soothe
 
 
-MODEL ARCHITECTURE
+## MODEL ARCHITECTURE
 
 A multi-input neural network combining:
 
@@ -68,7 +68,7 @@ A multi-input neural network combining:
 Both branches merge into dense layers and predict the cry reason. The solution label was excluded due to lower model accuracy when dual targeting.
 
 
-TECHNOLOGIES
+## TECHNOLOGIES
 
 TensorFlow / Keras
 
@@ -79,7 +79,7 @@ Scikit-learn
 NumPy, Matplotlib, Pickle
 
 
-PERFORMANCE
+## PERFORMANCE
 
 Accuracy: 51.9% (K-Fold Cross Validation)
 
@@ -88,7 +88,7 @@ Goal: >30% for pilot success
 Confusion Matrix Insight: Model performs best with “Unease”; common confusion between “Hungry” and “Tired”
 
 
-INSTALLATION & USAGE
+## INSTALLATION & USAGE
 
 Requirements
 
@@ -121,7 +121,7 @@ Setup
   -Open cry_baby_analyzer.ipynb and click 'Run All Cells'.
 
 
-MAKING PREDICTIONS
+## MAKING PREDICTIONS
 
 To experiment with making a new prediction:
 
@@ -140,7 +140,7 @@ To experiment with making a new prediction:
   -Scroll to the bottom of the cell to view prediction probabilities and category output.
 
 
-ROADMAP
+## ROADMAP
 
 Next Phase Goals:
 
@@ -153,7 +153,7 @@ Next Phase Goals:
   License model to third-party vendors
 
 
-TIMELINE SUMMARY
+## TIMELINE SUMMARY
 
 Sprint	Date	          Milestone
 
@@ -166,11 +166,11 @@ Sprint	Date	          Milestone
 13	    Oct 21–27	      Deployment
 
 
-AUTHOR
+## AUTHOR
 
 Michael Lee
 
-REFERENCES
+## REFERENCES
 
 TensorFlow & Keras Documentation
 
