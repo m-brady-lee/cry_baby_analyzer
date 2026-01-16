@@ -10,7 +10,7 @@ Babies-R-Us (BRU) launched the Cry Baby Analyzer (CBA) pilot to regain market sh
 
 ## KEY RESULTS
 
-LINK TO PRESENTATION: [cry_baby_presentation.pdf](https://github.com/m-brady-lee/cry_baby_analyzer/blob/master/cry_baby_presentation.pdf)
+Link to Presentation: [cry_baby_presentation.pdf](https://github.com/m-brady-lee/cry_baby_analyzer/blob/master/cry_baby_presentation.pdf)
 
 -Multi-input deep learning model with Mel Spectrogram and MFCC feature inputs
 
